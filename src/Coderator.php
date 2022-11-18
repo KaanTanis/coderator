@@ -89,7 +89,7 @@ class Coderator
 
         // if code exists, generate new one
         while ($model::query()->where($this->field, $code)->exists()) {
-            $code = $this->random();
+            $code = $this->generate();
         }
 
         return $code;
