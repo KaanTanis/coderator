@@ -2,6 +2,10 @@
 
 All notable changes to `coderator` will be documented in this file.
 
+## v1.0.1 - 2023-01-31
+
+Default length fix
+
 ## Default length fix - 2023-01-31
 
 Default length fix
