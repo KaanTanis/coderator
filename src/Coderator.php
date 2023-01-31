@@ -73,7 +73,7 @@ class Coderator
     public function random(): string
     {
         if ($this->length == null) {
-            $this->length = config('coderator.default_length');
+            $this->length = config('coderator.length');
         }
 
         return $this->prefix . Str::upper(Str::random($this->length));
